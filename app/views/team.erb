@@ -4,7 +4,7 @@
 <p>Team name: <%= @team.name %></p>
 <p>Team motto: <%= @team.motto %></p>
 <br>
-<% @team[:heros].each_with_index do |hero, index|%>
+<% @team.heros.each_with_index do |hero, index|%>
 <h2>Hero <%= index + 1 %></h2>
 <p>Hero's Name: <%= hero[:name] %></p>
 <p>Hero's Power: <%= hero[:power] %></p>
