@@ -7,7 +7,7 @@ class Team
     @name = hash[:name]
     @motto = hash[:motto]
     @heros = hash[:heros]
-    binding.pry
+
     
   end
 
