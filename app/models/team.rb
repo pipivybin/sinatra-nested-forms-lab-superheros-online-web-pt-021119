@@ -8,7 +8,7 @@ class Team
     @motto = hash[:motto]
     @heros = hash[:heros]
 
-    
+
   end
 
 end
