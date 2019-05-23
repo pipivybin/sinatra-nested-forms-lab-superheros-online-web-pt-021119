@@ -11,6 +11,7 @@ set :views, Proc.new { File.join(root, "../views/") }
     post '/teams' do
       @team = Team.new(params[:team])
       erb :team
+      binding.pry
     end
 
 end
